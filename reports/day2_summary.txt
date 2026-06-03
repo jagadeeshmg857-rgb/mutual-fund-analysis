@@ -1,0 +1,64 @@
+Day 2 Data Cleaning and SQL Database Design Summary
+
+Project: Mutual Fund Analytics Platform
+
+Tasks Completed:
+
+1. Data Cleaning
+
+* Cleaned NAV History dataset (02_nav_history.csv)
+* Converted date column to datetime format
+* Sorted data by amfi_code and date
+* Removed duplicate records
+* Validated NAV values greater than zero
+* Saved cleaned dataset to data/processed
+
+2. Scheme Performance Cleaning
+
+* Cleaned 07_scheme_performance.csv
+* Validated return metrics
+* Checked expense ratio values
+* Removed invalid and duplicate records
+* Saved cleaned dataset to data/processed
+
+3. Investor Transactions Cleaning
+
+* Cleaned 08_investor_transactions.csv
+* Standardized transaction types
+* Validated transaction amounts
+* Converted transaction dates
+* Removed duplicate records
+* Saved cleaned dataset to data/processed
+
+4. SQLite Database Design
+
+* Created SQLite database: bluestock_mf.db
+* Loaded cleaned datasets into database tables
+* Verified successful data loading
+
+5. SQL Development
+
+* Created schema.sql
+* Designed database schema for mutual fund analytics
+* Created queries.sql with analytical SQL queries
+
+6. Documentation
+
+* Created data_dictionary.md
+* Documented dataset structure and column definitions
+
+Deliverables Created:
+
+* data/processed/02_nav_history_clean.csv
+* data/processed/07_scheme_performance_clean.csv
+* data/processed/08_investor_transactions_clean.csv
+* bluestock_mf.db
+* sql/schema.sql
+* sql/queries.sql
+* data_dictionary.md
+
+Status:
+Day 2 Completed Successfully
+
+Git Commit:
+Day 2: Cleaned data and SQLite DB loaded
