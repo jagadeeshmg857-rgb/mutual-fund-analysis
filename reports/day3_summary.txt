@@ -1,0 +1,18 @@
+DAY 3 SUMMARY
+
+Performed Exploratory Data Analysis (EDA)
+
+Charts Created:
+- AUM Growth Chart
+- SIP Trend Chart
+- Category Heatmap
+- Age Group Distribution
+- Gender Distribution
+- State-wise Investment Analysis
+- Folio Growth Trend
+- City Tier Distribution
+- Payment Mode Distribution
+- KYC Status Distribution
+- Top Holdings Analysis
+
+Status: Day 3 Completed
