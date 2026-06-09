@@ -1,0 +1,37 @@
+DAY 6 SUMMARY
+
+Advanced Analytics & Risk Metrics
+
+Tasks Completed:
+
+1. Historical VaR (95%) calculated for all schemes
+2. CVaR (95%) calculated for all schemes
+3. Rolling 90-Day Sharpe Ratio computed
+4. Rolling Sharpe chart generated
+5. Investor Cohort Analysis completed
+6. SIP Continuity Analysis completed
+7. Fund Recommendation Engine developed
+8. HHI Concentration Analysis completed
+9. Advanced Insights documented
+
+Files Generated:
+
+- Advanced_Analytics.ipynb
+- var_cvar_report.csv
+- rolling_sharpe_chart.png
+- cohort_analysis.csv
+- sip_continuity_report.csv
+- hhi_report.csv
+- recommender.py
+- day6_summary.txt
+
+Key Findings:
+
+- 2024 cohort contributed highest investment volume.
+- ICICI Pru Liquid Fund had the highest Sharpe Ratio among low-risk funds.
+- Kotak Emerging Equity Fund ranked highest among high-risk funds.
+- Investors with gaps greater than 35 days were flagged as At Risk.
+- HHI analysis identified concentration levels across portfolios.
+
+Status:
+Day 6 Completed Successfully

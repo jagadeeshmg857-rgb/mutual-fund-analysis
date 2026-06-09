@@ -1,0 +1,23 @@
+DAY 5 SUMMARY
+
+Dashboard Development Completed
+
+Tasks Completed:
+1. Created Total Schemes KPI Card
+2. Created Total AUM KPI Card
+3. Created Total SIP Inflow KPI Card
+4. Created Total Folios KPI Card
+5. Built AUM Trend Line Chart
+6. Built SIP Inflow Trend Line Chart
+7. Built AUM by Fund House Bar Chart
+8. Formatted dashboard layout and titles
+9. Saved Power BI dashboard file
+10. Captured dashboard screenshot
+
+Files Generated:
+- bluestock_mf_dashboard.pbix
+- dashboard_screenshot.png
+- day5_summary.txt
+
+Status:
+Day 5 Completed Successfully
