@@ -1,9 +1,9 @@
 import streamlit as st
 import pandas as pd
 
-fund = pd.read_csv("data/raw/01_fund_master.csv")
-aum = pd.read_csv("data/raw/03_aum_by_fund_house.csv")
-sip = pd.read_csv("data/raw/04_monthly_sip_inflows.csv")
+fund = pd.read_csv("../data/raw/01_fund_master.csv")
+aum = pd.read_csv("../data/raw/03_aum_by_fund_house.csv")
+sip = pd.read_csv("../data/raw/04_monthly_sip_inflows.csv")
 
 st.title("Mutual Fund Dashboard")
 
