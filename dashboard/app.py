@@ -1,10 +1,24 @@
 import streamlit as st
 import pandas as pd
+import os
 
-fund = pd.read_csv("../data/raw/01_fund_master.csv")
-aum = pd.read_csv("../data/raw/03_aum_by_fund_house.csv")
-sip = pd.read_csv("../data/raw/04_monthly_sip_inflows.csv")
+# Get project root directory
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+# Load data
+fund = pd.read_csv(
+    os.path.join(BASE_DIR, "data", "raw", "01_fund_master.csv")
+)
+
+aum = pd.read_csv(
+    os.path.join(BASE_DIR, "data", "raw", "03_aum_by_fund_house.csv")
+)
+
+sip = pd.read_csv(
+    os.path.join(BASE_DIR, "data", "raw", "04_monthly_sip_inflows.csv")
+)
+
+# Dashboard
 st.title("Mutual Fund Dashboard")
 
 col1, col2, col3 = st.columns(3)
